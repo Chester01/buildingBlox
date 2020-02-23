@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building Blox</title>
+    <meta name="description" content="Building Blox" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Omer Danin, Guy Hovav" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="images/favicon.png"/> <!--הלוגו של המשחק שלכם-->
+                <h1>Building Blox</h1>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">X</a>
+            <h2>Building Blox</h2>
+            <p>אפיון ופיתוח: גיא חובב ועומר דנין</p>
+            <p>אופיין ופותח במסגרת פרויקט בקורסים: <br />
+ סביבות לימוד אינטראקטיביות 1 + תכנות אינטראקטיבי 1<br /><br />
+תש"פ 2020
+            </p>
+            <img id="hitLogo" width="150" height ="150" src="images/buildingblox_atlas_.png" />
+            <div id="tmargins">
+                <a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a>
+                <p>
+                    מכון טכנולוגי חולון
+                </p>
+            </div>
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <h2 id="howto">איך משחקים?</h2>
+            <p>מזל טוב!</p>
+            <p>התקבלת לעבודתך החדשה בתור מתפעל מנוף! :)</p>
+            <p>עליך לבנות בניין ולשם כך מתלווה אליך מהנדס הבניין שתפקידו לפקח על העבודה </p>
+            <p>עליכם להשתמש בחיצי המקלדת בכדי להזיז את המנוף ולחיצה על מקש ה"רווח" יבחר בתשובה המסומנת. מעבר עכבר על תמונות יגרום להגדלתן.</p>
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="buildingblox.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
