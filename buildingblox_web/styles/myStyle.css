@@ -64,7 +64,7 @@ iframe {
 
 #container {
     display:inline-block;
-    background:url(/images/background_web.png);
+    background:url(images/background_web.png);
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
