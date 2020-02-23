@@ -62,18 +62,10 @@ iframe {
         direction: rtl;
     }
 
-#container {
-    display:inline-block;
-    background-image:url(/background_web.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    width:100%;
-}
-
 #gameArea {
     overflow: hidden;
     position: relative;
-    height: 80vh;
+    height: 90vh;
     width: 90vw;
     margin: 0 auto;
 }
