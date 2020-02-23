@@ -14,6 +14,25 @@ iframe {
     width: 100%;
 }
 
+#credits
+{
+margin: 100px 300px 0 0;
+width:400px;
+height:100px;
+position:absolute;
+font-size:8pt;
+text-align:left;
+}
+
+    #credits > ul > li
+    {
+        margin-left: -30px;
+    }
+
+    #credits > ul > li > a{
+        font-size: 8pt;
+    }
+
 #howToPlayDiv {
     text-align:right;
     border: 10px solid #FFCC33;
