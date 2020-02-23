@@ -130,11 +130,12 @@ nav {
     direction: rtl;
 }
 
-       nav ul {
+        nav ul {
         list-style: none;
         direction: rtl;
-        position:relative;
-        top:-21px;
+        position:absolute;
+        top:-24px;
+       margin-right:980px;
     }
 
         nav ul li {
