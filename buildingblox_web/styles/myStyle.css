@@ -43,6 +43,45 @@ text-align:left;
         font-size: 18pt;
     }
 
+.closeAbout {
+    float:right;
+    background-color: orangered;
+    display: inline-block;
+    -webkit-border-radius: 100%;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+    .closeAbout:hover {
+        cursor: pointer;
+        opacity:0.8;
+    }
+
+.closeHowToPlay {
+    float: right;
+    text-align:center;
+    background-color: orangered;
+    display: inline-block;
+    -webkit-border-radius: 100%;
+    line-height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 24pt;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.closeHowToPlay:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 #howto
 {
     text-align:center;
